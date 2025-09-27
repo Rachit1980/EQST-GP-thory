@@ -1,0 +1,8 @@
+how to run it in any python locale interface 
+
+from cmd
+
+pip install emcee corner numpy scipy matplotlib
+
+
+python run_ede_emcee.py
