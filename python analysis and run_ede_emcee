@@ -1,0 +1,38 @@
+Analyze this code, its development, its operation, and its relationship to the previous one.
+Analysis of an MCMC code to investigate the cosmological EDE model.
+📋 Code Overview
+This code performs Bayesian inference using the MCMC (affine-invariant) algorithm to compare the early dark energy (EDE) model with cosmological data.
+
+🔍 Main Scientific Purpose
+Objective: To test the hypothesis of an "early dark energy" that could resolve the Hubble tension (H0 tension) between Planck and SH0ES measurements.
+Methodology:
+
+EDE MCMC: Uses Bayesian inference with MCMC
+
+Scope of Analysis:
+
+EDE MCMC: Focuses on the dynamics and expansion of the universe from EQST-GP perspective.
+📊 Expected Outputs
+1. Samples File (emcee_ede_samples.txt)
+All samples after burn-in
+
+Matrix Format: (Number of samples x 6 parameters)
+
+2. Corner Plot (emcee_ede_corner.png)
+Marginal Distributions for All Parameters
+
+Correlations Between Parameters
+
+Median Values ​​and Confidence Intervals
+
+3. Summary File (emcee_ede_summary.txt)
+Mean and Median Values
+
+Best Parameter Set (Highest Likelihood)
+
+Autocorrelation Times
+
+4. H(z) Plot (emcee_ede_Hz_bestfit.png)
+Comparison Between the Best Model and the Data
+
+Comparison with the Standard ΛCDM Model
